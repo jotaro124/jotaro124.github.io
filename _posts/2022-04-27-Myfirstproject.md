@@ -29,7 +29,7 @@ title: "게임 프로젝트 개발 과정 정리"
 
 ## * 보드, 액션 게임 통합
  1. 저장 기능 구현 방법 - [Save & Load Game (Statistics, Location & More) - Unreal Engine 4 Tutorial](https://youtu.be/coPqS4eTphM)
- 2. 2. 레벨 이동 기능 구현 방법 - [How To Create A Main Menu - Unreal Engine 4 Tutorial](https://youtu.be/K1vVbwMJCTQ}
+ 2. 레벨 이동 기능 구현 방법 - [How To Create A Main Menu - Unreal Engine 4 Tutorial](https://youtu.be/K1vVbwMJCTQ})
 
 ## * UMG
  1. UI 설계 방법 - [[NDC] 언리얼 4 UMG - 초보자도 쉽게 배우는 게임 UI 개발](https://youtu.be/G-ZzeNsOcVA)
