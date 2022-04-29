@@ -21,11 +21,11 @@ title: "게임 프로젝트 개발 과정 정리"
 
 ## * 액션 게임
  1. 액션 게임의 전체적인 구현 방법 - 이득우의 언리얼 C++ 게임 개발의 정석
- 2. 액션 게임 구현 방법 - 왕초보 따라햐여 스마트폰게임 내가 만들어 한다 언리얼 엔진
+ 2. 액션 게임 구현 방법 - 왕초보 따라하며 스마트폰 게임 내가 만들어 한다: 언리얼 엔진
  3. 액션 게임 구현 방법 - 만들면서 배우는 언리얼 게임 프로그래밍
  4. AI 구현 방법1 - [게임을 만들어 보자 언리얼 엔진 블루프린트 2편 (11장)](https://youtu.be/CfBTSi8AQCg?t=958)
- 5. 타이머 구현 방법1 - [Round Timer + Match Flow (Pt. 1)! | How To Make YOUR OWN Fighting Game! | UE4/C++ Tutorial, Part 50](https://youtu.be/-zDJJjN_urA)
-6. 타이머 구현 방법2 -[Countdown Timer | End Game Screen - Unreal Engine 4 Tutorial](https://youtu.be/nHK97x6ILYo)
+ 5. 타이머 구현 방법1 - [Round Timer + Match Flow (Pt. 1)!,  How To Make YOUR OWN Fighting Game!,  UE4/C++ Tutorial, Part 50](https://youtu.be/-zDJJjN_urA)
+6. 타이머 구현 방법2 - [Countdown Timer - Unreal Engine 4 Tutorial](https://youtu.be/nHK97x6ILYo)
 
 ## * 보드, 액션 게임 통합
  1. 저장 기능 구현 방법 - [Save & Load Game (Statistics, Location & More) - Unreal Engine 4 Tutorial](https://youtu.be/coPqS4eTphM)
