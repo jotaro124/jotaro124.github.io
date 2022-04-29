@@ -15,13 +15,8 @@ title: "게임 프로젝트 개발 과정 정리"
 
 > 턴 바꾸는 기능 구현
 
-
-
-<<<<<<< HEAD
 ![TurnChange3](../images/2022-04-27-Myfirstproject/TurnChange3.png)
-=======
-![TurnChange3](.\images\2022-04-27-Myfirstproject\TurnChange3.png)
->>>>>>> 0a73c1f68d1f33f52b687796695bc7af694e6c35
+
 
 
 
@@ -48,7 +43,7 @@ title: "게임 프로젝트 개발 과정 정리"
 
 
 
-![RequestTurn Image](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\RequestTurn Image.png)
+![RequestTurn Image](../images/2022-04-27-Myfirstproject/RequestTurn Image.png)
 
 - RequestTurn 함수가 GameMode의 TurnRequest를 호출한다.
 
