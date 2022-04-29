@@ -9,6 +9,16 @@ title: "게임 프로젝트 개발 과정 정리"
  - 제작기간 : 2022.01.02~2022.04.15
  - 개발규모 : 1인개발
 
+
+
+# 기술 설명서
+
+* 턴 바꾸는 기능 구현
+
+![TurnChange](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnChange.png)
+
+
+
 # 참고 자료
 
 * ## 보드 게임
@@ -33,4 +43,3 @@ title: "게임 프로젝트 개발 과정 정리"
 
 * ## UMG
   1. UI 설계 방법 - [[NDC] 언리얼 4 UMG - 초보자도 쉽게 배우는 게임 UI 개발](https://youtu.be/G-ZzeNsOcVA)
-  
