@@ -13,9 +13,70 @@ title: "게임 프로젝트 개발 과정 정리"
 
 # 기술 설명서
 
-* 턴 바꾸는 기능 구현
+> 턴 바꾸는 기능 구현
 
-![TurnChange](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnChange.png)
+
+
+![TurnChange2](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnChange2.png)
+
+
+
+## BP_BoardBase
+
+* CombatComponent를 가지고 있다.
+
+
+
+## CombatComponent
+
+* BeginBattle(): TurnTime 이후 RequestTurn()을 호출하는 함수
+* RequestTurn(): 자신을 가지고 있는 BP_BoardBase를 GameMode의 TurnRequest에 전달하는 함수
+* StartUnitTurn(): 턴을 받았다는 의미
+* EndUnitTurn(): 턴이 끝났다는 의미, TurnEnded 이벤트 디스패처를 호출한다.
+
+
+
+##  BattleGameMode
+
+* TurnRequest(): 턴을 받고 StartTurn을 호출하는 함수
+* StartTurn(): 턴인 Unit의 CombatComponent에 있는 StartUnitTurn()을 호출하고, ReadyNextTurn()을 TurnEnded의 이벤트 목록에 바인딩한다.
+* ReadyNextTurn(): 다음 턴을 넘겨줄 수 있는지 없는지 판단하고, 없으면 다음 레벨로 이동 명령을 한다.
+
+
+
+![RequestTurn Image](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\RequestTurn Image.png)
+
+- RequestTurn 함수가 GameMode의 TurnRequest를 호출한다.
+
+
+
+![TurnRequest Image](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnRequest Image.png)
+
+- TurnOrder에 Unit을 넣고, StartTurn을 호출한다.
+
+
+
+![StartTurn Image1](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\StartTurn Image1.png)
+
+- TurnOrder의 0번째 Unit이 유효하다면 CombatComponent의 StartUnitTurn을 호출한다.
+
+
+
+![EndUnitTurn Image](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\EndUnitTurn Image.png)
+
+* StartUnitTurn이 진행된 후 EndUnitTurn을 호출해서 TurnEnded 이벤트 디스패처를 호출한다.
+
+
+
+![이벤트 바인딩 ReadyNextTurn](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\이벤트 바인딩 ReadyNextTurn.png)
+
+* TurnEnded의 이벤트 목록에 있는 ReadyNextTurn이 호출되고, TurnEnded를 호출한 Unit을 TurnOrder 목록에서 제거한다.
+
+
+
+![ReadyNextTurn Image](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\ReadyNextTurn Image.png)
+
+* TurnOrder의 0번째 Unit이 유효하면 StartTurn을 호출하고, 유효하지 않으면 전원 턴 종료로 판단한다.
 
 
 
