@@ -17,7 +17,7 @@ title: "게임 프로젝트 개발 과정 정리"
 
 
 
-![TurnChange2](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnChange2.png)
+![TurnChange3](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-04-27-Myfirstproject\TurnChange3.png)
 
 
 
