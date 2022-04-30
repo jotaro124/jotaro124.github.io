@@ -45,9 +45,13 @@ title: "게임 프로젝트 개발 과정 정리"
 
 
 
+
+
 ![RequestTurn Image](../images/2022-04-27-Myfirstproject/RequestTurn%20Image.png)
 
 - RequestTurn 함수가 GameMode의 TurnRequest를 호출한다.
+
+
 
 
 
@@ -57,9 +61,13 @@ title: "게임 프로젝트 개발 과정 정리"
 
 
 
+
+
 ![StartTurn Image1](../images/2022-04-27-Myfirstproject/StartTurn%20Image1.png)
 
 - TurnOrder의 0번째 Unit이 유효하다면 CombatComponent의 StartUnitTurn을 호출한다.
+
+
 
 
 
@@ -69,15 +77,21 @@ title: "게임 프로젝트 개발 과정 정리"
 
 
 
+
+
 ![이벤트 바인딩 ReadyNextTurn](../images/2022-04-27-Myfirstproject/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%B0%94%EC%9D%B8%EB%94%A9%20ReadyNextTurn.png)
 
 * TurnEnded의 이벤트 목록에 있는 ReadyNextTurn이 호출되고, TurnEnded를 호출한 Unit을 TurnOrder 목록에서 제거한다.
 
 
 
+
+
 ![ReadyNextTurn Image](../images/2022-04-27-Myfirstproject/ReadyNextTurn%20Image.png)
 
 * TurnOrder의 0번째 Unit이 유효하면 StartTurn을 호출하고, 유효하지 않으면 전원 턴 종료로 판단한다.
+
+
 
 
 
