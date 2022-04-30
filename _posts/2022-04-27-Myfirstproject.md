@@ -85,8 +85,8 @@ title: "게임 프로젝트 개발 과정 정리"
   1. 보드 게임 구현 방법 1 - [Unity 2D Tutorial How To Create Simple Board Game With Dice Rolling And Turn Based Movement Features](https://youtu.be/W8ielU8iURI)
   2. 보드 게임 구현 방법2 - [Unity 3D: Board game(tutorial)](https://youtube.com/playlist?list=PLDcwWgfSSwTgIgtBkSn3lSFjzJQOxbr5E)
   3. 보드 게임 구현 방법3 - [Simple Board Game with Entities! Unity Game Dev Log [Part 1]](https://youtu.be/lW4cpcFHMRM)
-  4. 보드 게임 턴 바꾸는 기능 구현 방법 - [UE4 턴제 게임 튜토리얼](https://youtube.com/playlist?list=PLjs_xf1mPQQN-uFdvbjNT06LIDAIvZGaj)
-  5. 보드 칸 이동하는 기능 구현 방법 - [언리얼 횡스크롤 게임 만들기 14 몬스터 AI 1](https://youtu.be/iJmPx_jqAN8)
+  4. 보드 칸 이동하는 기능 구현 방법 - [언리얼 횡스크롤 게임 만들기 14 몬스터 AI 1](https://youtu.be/iJmPx_jqAN8)
+  5. 보드 게임 턴 바꾸는 기능 구현 방법 - [UE4 턴제 게임 튜토리얼](https://youtube.com/playlist?list=PLjs_xf1mPQQN-uFdvbjNT06LIDAIvZGaj)
 
 
 * ## 액션 게임
