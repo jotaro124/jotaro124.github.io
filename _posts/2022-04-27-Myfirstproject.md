@@ -6,7 +6,7 @@ title: "게임 프로젝트 개발 과정 정리"
 # Unreal Portfolio
  - 엔진 : Unreal Engine 4 (4.25.4 버전)
  - 에디터 : Microsoft Visual Studio Community 2019 (16.7.3 버전)
- - 제작기간 : 2022.01.02~2022.04.15
+ - 제작기간 : 2022.01.02 ~ 개발중
  - 개발규모 : 1인개발
 
 
