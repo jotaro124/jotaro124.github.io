@@ -9,6 +9,11 @@ title: "게임 프로젝트 개발 과정 정리"
  - 제작기간 : 2022.01.02 ~ 개발중
  - 개발규모 : 1인개발
 
+# 데모 영상
+
+> Youtube
+
+[![썸내일](http://img.youtube.com/vi/hxDNzBQ0iW0/0.jpg)](https://youtu.be/hxDNzBQ0iW0)
 
 
 # 기술 설명서
