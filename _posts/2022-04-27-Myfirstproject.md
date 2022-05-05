@@ -4,6 +4,9 @@ title: "게임 프로젝트 개발 과정 정리"
 ---
 
 # Unreal Portfolio
+
+대전 액션 게임의 문제에 새로운 방안을 제시하기 위해 보드게임과 격투 게임을 혼합시킨 게임입니다.
+
  - 엔진 : Unreal Engine 4 (4.25.4 버전)
  - 에디터 : Microsoft Visual Studio Community 2019 (16.7.3 버전)
  - 제작기간 : 2022.01.02 ~ 개발중
