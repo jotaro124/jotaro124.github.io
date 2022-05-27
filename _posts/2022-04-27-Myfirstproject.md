@@ -16,7 +16,7 @@ title: "게임 프로젝트 개발 과정 정리"
 
 > Youtube
 
-[![썸내일](http://img.youtube.com/vi/hxDNzBQ0iW0/0.jpg)](https://youtu.be/hxDNzBQ0iW0)
+[![썸내일](http://img.youtube.com/vi/_JosWnsAcsU/0.jpg)](https://youtu.be/_JosWnsAcsU)
 
 
 # 기술 설명서
