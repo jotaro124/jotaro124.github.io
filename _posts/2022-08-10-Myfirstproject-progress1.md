@@ -32,40 +32,40 @@
 
 ## 1. 보물이 있는 곳으로 카메라 이동
 
-![MyFirstproject-progress1-image1](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image1.gif)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image1.gif)
 
 
 
 ## 2. 페이드 인/ 페이트 아웃 추가
 
-![MyFirstproject-progress1-image2](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image2.gif)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image2.gif)
 
 
 
 ## 3. 벽 있는 맵 제작
 
-![MyFirstproject-progress1-image3](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image3.png)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image3.png)
 
 
 
 ## 4. 새로운 공격 모션 추가
 
-![MyFirstproject-progress1-image4](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image4.png)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image4.png)
 
 
 
 ## 5. 점프 추가
 
-![MyFirstproject-progress1-image5](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image5.png)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image5.png)
 
 
 
 ## 6. 피격 효과 추가
 
-![MyFirstproject-progress1-image6](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image6.png)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image6.png)
 
 
 
 ## 7. 액션 게임 결과 UI 변경
 
-![MyFirstproject-progress1-image7](D:\GithubDesktop\Project\jotaro124--github-blog\jotaro124.github.io\images\2022-08-10-Myfirstproject-progress1\MyFirstproject-progress1-image7.png)
+![MyFirstproject-progress1-image3](../images\2022-08-10-Myfirstproject-progress1/MyFirstproject-progress1-image7.png)
