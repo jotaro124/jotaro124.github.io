@@ -1,9 +1,6 @@
 >---
 >layout: single
->title:  "BoardFighter 포트폴리오 수정1"
->---
-
-
+>title: "BoardFighter 포트폴리오 수정1"
 
 # Unreal Portfolio
 
