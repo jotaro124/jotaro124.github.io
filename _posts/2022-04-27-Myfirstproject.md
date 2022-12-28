@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "게임 프로젝트 개발 과정 정리"
+categories: BoardFighter
 ---
 
 # Unreal Portfolio
