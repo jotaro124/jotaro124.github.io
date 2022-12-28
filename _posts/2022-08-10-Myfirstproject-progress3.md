@@ -33,13 +33,13 @@ author_profile: false
 
 ## 1. 캐릭터 선택 기능 구현
 
-![CharacterSelectScreen1](..\images\2022-08-10-Myfirstproject-progress3\CharacterSelectScreen1.png)
+![CharacterSelectScreen1](..\../images\2022-08-10-Myfirstproject-progress3\CharacterSelectScreen1.png)
 
 
 
 ## 2. 새로운 캐릭터 추가
 
-![AddNewCharacter](..\images\2022-08-10-Myfirstproject-progress3\AddNewCharacter.png)
+![AddNewCharacter](..\../images\2022-08-10-Myfirstproject-progress3\AddNewCharacter.png)
 
 
 
@@ -47,7 +47,7 @@ author_profile: false
 
 
 
-![ViewMap](..\images\2022-08-10-Myfirstproject-progress3\ViewMap.png)
+![ViewMap](..\../images\2022-08-10-Myfirstproject-progress3\ViewMap.png)
 
 # 힙들었던 점
 

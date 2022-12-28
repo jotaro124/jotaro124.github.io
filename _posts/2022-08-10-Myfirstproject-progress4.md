@@ -33,19 +33,19 @@ author_profile: false
 
 ## 1. 준비 단계 메뉴 리뉴얼
 
-![NewReadyMenu](..\images\2022-08-10-Myfirstproject-progress4\NewReadyMenu.png)
+![NewReadyMenu](..\../images\2022-08-10-Myfirstproject-progress4\NewReadyMenu.png)
 
 
 
 ### 1.1 장비 장착 메뉴
 
-![NewReadyMenu-Equip](..\images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-Equip.png)
+![NewReadyMenu-Equip](..\../images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-Equip.png)
 
 
 
 ### 1.2 능력치 강화 메뉴
 
-![NewReadyMenu-PowerUp](..\images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-PowerUp.png)
+![NewReadyMenu-PowerUp](..\../images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-PowerUp.png)
 
 
 
@@ -53,19 +53,19 @@ author_profile: false
 
 #### 1.3.1 장비 구매 메뉴
 
-![NewShop-BuyEquip](..\images\2022-08-10-Myfirstproject-progress4\NewShop-BuyEquip.png)
+![NewShop-BuyEquip](..\../images\2022-08-10-Myfirstproject-progress4\NewShop-BuyEquip.png)
 
 
 
 #### 1.3.2 골드 구매 메뉴
 
-![NewReadyMenu-shop-BuyGold](..\images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-shop-BuyGold.png)
+![NewReadyMenu-shop-BuyGold](..\../images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-shop-BuyGold.png)
 
 
 
 #### 1.3.3 장비 판매 메뉴
 
-![NewReadyMenu-Shop-SellEquip](..\images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-Shop-SellEquip.png)
+![NewReadyMenu-Shop-SellEquip](..\../images\2022-08-10-Myfirstproject-progress4\NewReadyMenu-Shop-SellEquip.png)
 
 
 

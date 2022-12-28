@@ -43,11 +43,11 @@ author_profile: false
 
 # 2. 애너미 캐릭터로 생성하고, 피격 효과 추가
 
-![HeatIamge-Infinityblade](..\images\2022-08-10-Myfirstproject-progress2\HeatIamge-Infinityblade.png)
+![HeatIamge-Infinityblade](..\../images\2022-08-10-Myfirstproject-progress2\HeatIamge-Infinityblade.png)
 
 
 
-![HeatImage-PargonGreystone](..\images\2022-08-10-Myfirstproject-progress2\HeatImage-PargonGreystone.png)
+![HeatImage-PargonGreystone](..\../images\2022-08-10-Myfirstproject-progress2\HeatImage-PargonGreystone.png)
 
 
 
