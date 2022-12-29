@@ -1,7 +1,7 @@
 ---
 title: "BoardFighter"
 layout: archive
-permalink: categories/boardfighter
+permalink: /categories/boardfighter
 author_profile: true
 sidebar:
     nav: "docs"

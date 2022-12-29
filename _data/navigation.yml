@@ -9,7 +9,7 @@ docs:
   - title: 카테고리 목록
     children:
       - title: "Boardfighter"
-        url: categories/boardfighter/
+        url: /categories/boardfighter/
         category: "BoardFighter"
 
   # - title: "About"
