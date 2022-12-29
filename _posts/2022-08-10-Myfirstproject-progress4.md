@@ -4,6 +4,8 @@ title: "BoardFighter 포트폴리오 수정4"
 categories: BoardFighter
 toc: true
 author_profile: false
+sidebar:
+     nav: "docs"
 ---
 
 # Unreal Portfolio
