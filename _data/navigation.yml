@@ -4,6 +4,14 @@ main:
     url: /categories/
   - title: "Search"
     url: /search/
+
+docs:
+  - title: 카테고리 목록
+    children:
+      - title: "Boardfighter"
+        url: categories/boardfighter/
+        category: "BoardFighter"
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
