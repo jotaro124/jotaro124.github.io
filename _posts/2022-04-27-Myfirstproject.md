@@ -3,7 +3,7 @@ layout: single
 title: "게임 프로젝트 개발 과정 정리"
 categories: BoardFighter
 toc: true
-author_profile: false
+author_profile: true
 sidebar:
      nav: "docs"
 ---
