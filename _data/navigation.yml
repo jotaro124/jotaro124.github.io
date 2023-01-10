@@ -6,11 +6,16 @@ main:
     url: /search/
 
 docs:
-  - title: 카테고리 목록
+  - title: 포트폴리오
     children:
       - title: "Boardfighter"
         url: /categories/boardfighter
         category: "BoardFighter"
+      - title: "과제"
+        url: /categories/assignment
+        category: "assignment"
+
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
