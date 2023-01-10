@@ -29,7 +29,7 @@ sidebar:
 
 ## 1. 기획 의도
 
-![OpenSouceFinalTest4](..\images\2023-01-04-Assignment\OpenSouceFinalTest4.png)
+![OpenSouceFinalTest4](..\..\images\2023-01-04-Assignment\OpenSouceFinalTest4.png)
 
 
 
@@ -51,7 +51,7 @@ sidebar:
 
 
 
-![Flowchart](..\images\2023-01-04-Assignment\FlowChart2.png)
+![Flowchart](..\..\images\2023-01-04-Assignment\FlowChart2.png)
 
 * 주인공은 정해진 체력이 있다
 * 적은 주인공을 찾아내서 공격한다.
