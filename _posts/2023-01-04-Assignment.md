@@ -228,8 +228,8 @@ public class Enemy : MonoBehaviour
 
 # 참고자료
 
-1. 배경음: https://youtube.com/playlist?list=PLU4ktq2pWONtJ7o5pLZyWJc88nttIzMKx
-2. 모노쿠마 음성: https://youtu.be/82_XOtle9Tg
-3. 나에기 음성: https://youtu.be/_TnOwKGcsyw
+1. 배경음: [https://youtube.com/playlist?list=PLU4ktq2pWONtJ7o5pLZyWJc88nttIzMKx](https://youtube.com/playlist?list=PLU4ktq2pWONtJ7o5pLZyWJc88nttIzMKx)
+2. 모노쿠마 음성: [https://youtu.be/82_XOtle9Tg](https://youtu.be/82_XOtle9Tg)
+3. 나에기 음성: [https://youtu.be/_TnOwKGcsyw](https://youtu.be/_TnOwKGcsyw)
 4. 유니티 UI: [골드메탈 유튜브](https://youtu.be/N4PLRkupABM)
 5. 지국환,  C# 초보자를 위한 유니티 게임개발 스타트업. 비엘북스, 2014
