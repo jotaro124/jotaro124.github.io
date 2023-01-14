@@ -19,6 +19,7 @@ sidebar:
 - 에디터: Microsoft Visual Studio Community 2019(16.7.3 버전)
 - 개발기간: 2022.05.31 ~ 2022.06.08
 - 개발규모: 1인 개발
+- Demo: [https://zesty-pavlova-446823.netlify.app/](https://zesty-pavlova-446823.netlify.app/)
 
 
 
@@ -435,4 +436,4 @@ public class Player : MonoBehaviour
 1. 모리 요시나오, 유니티를 몰라도 만들 수 있는 유니티 2D 게임 제작, 영진닷컴, 2021
 2. 지국환,  C# 초보자를 위한 유니티 게임개발 스타트업. 비엘북스, 2014
 3. 유니티 UI: [골드메탈 유튜브](https://youtu.be/N4PLRkupABM)
-4. 적 스프라이트 랜덤으로 표시하는 기능: [https://youtu.be/W8ielU8iURI](https://youtu.be/W8ielU8iURI)
+4. [적 스프라이트 랜덤으로 표시하는 기능](https://youtu.be/W8ielU8iURI)
