@@ -18,6 +18,7 @@ sidebar:
 - 에디터 :Microsoft Visual Studio Community 2019(16.7.3 버전)
 - 개발기간: 2022.09.01~2022.09.06
 - 개발규모: 1인 개발
+- Demo: [[https://splendorous-biscochitos-ae02f7.netlify.app](https://splendorous-biscochitos-ae02f7.netlify.app/)]([https://splendorous-biscochitos-ae02f7.netlify.app](https://splendorous-biscochitos-ae02f7.netlify.app/))
 
 
 
@@ -431,6 +432,8 @@ public class CommandUndo:Command
 
 ### 2.2 ControllCube.cs
 
+- 일부 코드 생략
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -438,7 +441,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ControllCube : MonoBehaviour{
-    /*일부 코드 중략*/
+    /*일부 코드 생략*/
+    
+    // Undo 키 체크용도 Flag
+    bool isPushUndoKey = false;
+    
+    // 액터의 Command를 담는 스택 선언
+    Stack<Command> stack = new Stack<Command>();
     
     Command GetCommand()
     {
