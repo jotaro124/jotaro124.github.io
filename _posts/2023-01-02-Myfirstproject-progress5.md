@@ -100,43 +100,43 @@ sidebar:
 
 ## 1. 캐릭터 선택 메뉴 변경
 
-![Change1](..\..\images\2023-01-02-Myfirstproject-progress5\1_New_SelectMenu)
+![Change1](..\..\images\2023-01-02-Myfirstproject-progress5\1_New_SelectMenu.PNG)
 
 
 
 ## 2. 아이템 사용 버튼 제거
 
-![Change2](..\..\images\2023-01-02-Myfirstproject-progress5\2. Delecte_Item_Button.PNG)
+![Change2](..\..\images\2023-01-02-Myfirstproject-progress5\2_Delecte_Item_Button.PNG)
 
 
 
 ## 3. 점프 애니메이션 수정
 
-![Change3](..\..\images\2023-01-02-Myfirstproject-progress5\3. JumpAnimation.PNG)
+![Change3](..\..\images\2023-01-02-Myfirstproject-progress5\3_JumpAnimation.PNG)
 
 
 
 ## 4. 원거리 공격 추가
 
-![Change4](..\..\images\2023-01-02-Myfirstproject-progress5\4. RangeAttack.PNG)
+![Change4](..\..\images\2023-01-02-Myfirstproject-progress5\4_RangeAttack.PNG)
 
 
 
 ## 5. 골드 획득 기능 구현
 
-![Change5](..\..\images\2023-01-02-Myfirstproject-progress5\5. GetGold.PNG)
+![Change5](..\..\images\2023-01-02-Myfirstproject-progress5\5_GetGold.PNG)
 
 
 
 ## 6. 새로운 애너미 추가
 
-![Change6](..\..\images\2023-01-02-Myfirstproject-progress5\6. NewEnemy.PNG)
+![Change6](..\..\images\2023-01-02-Myfirstproject-progress5\6_NewEnemy.PNG)
 
 
 
 ## 7. 액션 게임 결과 UI 수정
 
-![Change7](..\..\images\2023-01-02-Myfirstproject-progress5\7. New ActionResult_UI.PNG)
+![Change7](..\..\images\2023-01-02-Myfirstproject-progress5\7_New ActionResult_UI.PNG)
 
 
 
