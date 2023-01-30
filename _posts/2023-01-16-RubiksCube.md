@@ -18,7 +18,7 @@ sidebar:
 - 에디터 :Microsoft Visual Studio Community 2019(16.7.3 버전)
 - 개발기간: 2022.09.01~2022.09.06
 - 개발규모: 1인 개발
-- Demo: [[https://splendorous-biscochitos-ae02f7.netlify.app](https://splendorous-biscochitos-ae02f7.netlify.app/)]([https://splendorous-biscochitos-ae02f7.netlify.app](https://splendorous-biscochitos-ae02f7.netlify.app/))
+- Demo: [https://splendorous-biscochitos-ae02f7.netlify.app](https://splendorous-biscochitos-ae02f7.netlify.app/))
 
 
 
