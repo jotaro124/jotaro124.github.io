@@ -100,7 +100,7 @@ sidebar:
 
 ## 1. 캐릭터 선택 메뉴 변경
 
-![Change1](..\..\images\2023-01-02-Myfirstproject-progress5\1. New SelectMenu.PNG)
+![Change1](..\..\images\2023-01-02-Myfirstproject-progress5\1_New_SelectMenu)
 
 
 
