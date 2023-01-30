@@ -316,6 +316,10 @@ public class OriginalRotate : MonoBehaviour{
 
 
 > 오브젝트를 시계, 반시계 방향으로 회전하는 기능
+>
+> - round90 함수는 짐벌락을 예방하기 위한 함수
+> - moveBlockTime은 실질적으로 회전하는 함수
+> - RotateSide 함수는 회전을 명령하는 함수
 
 ```c#
      // 코루틴 종료 후, 90º에 가장 가까운 값을 찾도록 하는 함수
@@ -434,6 +438,9 @@ public class CommandUndo:Command
 
 ### 2.2 ControllCube.cs
 
+- Update 함수로 매 프레임마다 Getcommand를 체크한다.
+- Undo를 제외한 Command는 Stack에 Push하고, Undo는 Pop한다.
+- Command 명령이 있으면 해당 명령을 실행한다.
 - 일부 코드 생략
 
 ```c#
