@@ -439,9 +439,8 @@ public class CommandUndo:Command
 ### 2.2 ControllCube.cs
 
 - Update 함수로 매 프레임마다 Getcommand를 체크한다.
-- Undo를 제외한 Command는 Stack에 Push하고, Undo는 Pop한다.
+- Undo Command는 Statck에 Pop하고, 나머지 Command는 Stack에 Push한다.
 - Command 명령이 있으면 해당 명령을 실행한다.
-- 일부 코드 생략
 
 ```c#
 using System.Collections;
