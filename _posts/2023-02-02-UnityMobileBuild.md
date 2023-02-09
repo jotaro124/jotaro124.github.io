@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "유니티 모바일 빌드 방법"
-categories: UnityDocs
+categories: AndroidBuild
 toc: true
 sidebar:
      nav: "docs"

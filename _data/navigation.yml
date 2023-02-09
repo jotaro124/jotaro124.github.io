@@ -19,7 +19,7 @@ docs:
         category: "work2lern"
   - title: Unity
     children:
-      - title: "나만의 유니티 문서"
+      - title: "안드로이드 빌드 방법"
         url: /categories/UnityDocs
         category: "UnityDocs"
 
