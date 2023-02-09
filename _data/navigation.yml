@@ -22,6 +22,11 @@ docs:
       - title: "안드로이드 빌드 방법"
         url: /categories/AndroidBuild
         category: "AndroidBuild"
+  - title: C/C++/C#
+    children:
+      - title: "C#"
+        url: /categories/CSharp
+        category: "CSharp"
 
 
   # - title: "About"
