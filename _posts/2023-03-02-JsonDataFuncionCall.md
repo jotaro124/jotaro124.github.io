@@ -51,7 +51,13 @@ public class JFunctionData
 ~~~csharp
 // Atom();
 void Atom_0(string[] arg) => Debug.Log("매개변수 없는 함수 호출");
+~~~
 
+* 매개변수가 없는 함수 Atom()는 그냥 호출하면 된다.
+
+
+
+~~~csharp
 // Atom(int,string,Float)
 void Atom_ISF(string[] arg)
 {
@@ -74,10 +80,8 @@ void Atom_ISF(string[] arg)
 }
 ~~~
 
+* 매개변수 형이 int, string, float인 함수 Atom(int,string,Float)은  string 타입으로 받은 값들을 해당 타입으로 변환하는 작업을 거쳐야 한다.
 
-
-* 매개변수가 없는 함수 Atom()와 매개변수 형이 int, string, Float인 함수 Atom(int,string,Float)을 선언했다.
-* 매개변수 없는 함수는 그냥 호출하면 되지만, 매개변수가 있는 함수는 string 타입으로 받은 값들을 해당 타입으로 변환하는 작업을 거쳐야 한다.
 * 타입으로 변환하는 과정에서 맞지 않는 타입일 경우 예외처리를 해서 오류를 방지했다. 예를들어 bool a = Convert.ToInt32("A")이면 에러가 발생한다.
 
 
