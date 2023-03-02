@@ -20,8 +20,8 @@ docs:
   - title: Unity
     children:
       - title: "유니티 공부"
-       url: /categories/UnityStudy
-       category: "UnityStudy"
+        url: /categories/UnityStudy
+        category: "UnityStudy"
       - title: "안드로이드 빌드 방법"
         url: /categories/AndroidBuild
         category: "AndroidBuild"
