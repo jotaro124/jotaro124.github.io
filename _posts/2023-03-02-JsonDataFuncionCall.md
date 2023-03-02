@@ -155,7 +155,7 @@ public class CFSManager: MonoBehaviour {
 
 # 참고자료
 
-1. [[C언어] 실습: 이름을 검색하여 해당하는 연락처 출력하기](https://blog.hexabrain.net/151)
+1. [[C언어] 실습: 이름을 검색하여 해당하는 연락처 출력하기](https://sweetnew.tistory.com/235)
 2. [[C#] 델리게이트 개념1](https://blog.hexabrain.net/151)
 3. [[C#] 델리게이트 개념2](https://seonbicode.tistory.com/27)
 4. [[C#] 가변 배열](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/arrays/jagged-arrays)
