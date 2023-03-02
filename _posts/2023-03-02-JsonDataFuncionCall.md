@@ -119,6 +119,7 @@ public class CFSManager: MonoBehaviour {
 * 딕셔너리 자료구조로 만든 Dictionary<string, FunctionDelegate> database를 선언한다.
   - 데이터베이스는 키는 함수명_이니셜, 값은 호출할 함수로 구성했다.
   - Dictionary<키 값, 호출할 함수>
+  - 호출할 함수는 람다식으로 등록한다.
 
 
 
