@@ -13,11 +13,9 @@ sidebar:
 
  자바스크립트에서 Unity의 함수를 호출하는 메시지를 보내는 방법을 찾다가 둘 다 JSON을 사용할 수 있어서 JSON을 통한 메시지 전송 방법을 찾아냈다. 이 글은 JSON 형식으로 작성한 함수 정보를 유니티가 해석해서 해당 함수를 호출하는 내용을 담고 있다. 또 공부와 기록 목적으로 작성한 내용이기 때문에 틀린 부분과 자주 수정할 사향이 많은 점 이해해주시면 감사하겠습니다.
 
-
+<br>
 
 # JSON 데이터 처리 방법
-
-<br>
 
 ## 1. JSON형식으로 작성한 함수 데이터
 
@@ -35,7 +33,7 @@ sidebar:
 
 ## 2. JSON형식 데이터 처리 클래스 작성
 
-~~~C#
+~~~csharp
 [System.Serializable]
 public class JFunctionData
 {
@@ -50,7 +48,7 @@ public class JFunctionData
 
 ## 3. 예시로 사용할 함수 선언
 
-~~~C#
+~~~csharp
 // Atom();
 void Atom_0(string[] arg) => Debug.Log("매개변수 없는 함수 호출");
 
@@ -76,6 +74,8 @@ void Atom_ISF(string[] arg)
 }
 ~~~
 
+
+
 * 매개변수가 없는 함수 Atom()와 매개변수 형이 int, string, Float인 함수 Atom(int,string,Float)을 선언했다.
 * 매개변수 없는 함수는 그냥 호출하면 되지만, 매개변수가 있는 함수는 string 타입으로 받은 값들을 해당 타입으로 변환하는 작업을 거쳐야 한다.
 * 타입으로 변환하는 과정에서 맞지 않는 타입일 경우 예외처리를 해서 오류를 방지했다. 예를들어 bool a = Convert.ToInt32("A")이면 에러가 발생한다.
@@ -84,11 +84,9 @@ void Atom_ISF(string[] arg)
 
 # 데이터베이스 구축 및 검색
 
-<br>
-
 ## 1. 데이터베이스 구축
 
-~~~c#
+~~~csharp
 // Call From Js Message Manager
 public class CFSManager: MonoBehaviour {
     
@@ -122,7 +120,7 @@ public class CFSManager: MonoBehaviour {
 
 ## 2. 데이터베이스 검색함수 구현
 
-~~~C#
+~~~csharp
 // 데이터베이스 검색 함수
     public void SearchDatabase(string json) 
     {
@@ -156,12 +154,11 @@ public class CFSManager: MonoBehaviour {
 1. [[C언어] 실습: 이름을 검색하여 해당하는 연락처 출력하기](https://blog.hexabrain.net/151)
 2. [[C#] 델리게이트 개념1](https://blog.hexabrain.net/151)
 3. [[C#] 델리게이트 개념2](https://seonbicode.tistory.com/27)
-
-	4. [[C#] 가변 배열](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/arrays/jagged-arrays)
-	4. [[c#] 문자열 숫자 변환 방법](https://codingcoding.tistory.com/789)
-	4. [[c#] 딕셔너리 사용법1](https://codingcoding.tistory.com/380)
-	4. [[c#] 딕셔너리 사용법2](https://developer-talk.tistory.com/697)
-	4. [[유니티] Newtonsoft.json 사용법](https://postiveground.com/etc/%EC%9C%A0%EB%8B%88%ED%8B%B0-json-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/)
-	4. [json 사용법1](http://www.tcpschool.com/json/json_use_js)
-	4. [json 사용법2](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON)
-	4. [json 사용법3](https://java119.tistory.com/54)
+4. [[C#] 가변 배열](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/arrays/jagged-arrays)
+5. [[c#] 문자열 숫자 변환 방법](https://codingcoding.tistory.com/789)
+6. [[c#] 딕셔너리 사용법1](https://codingcoding.tistory.com/380)
+7. [[c#] 딕셔너리 사용법2](https://developer-talk.tistory.com/697)
+8. [[유니티] Newtonsoft.json 사용법](https://postiveground.com/etc/%EC%9C%A0%EB%8B%88%ED%8B%B0-json-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/)
+9. [json 사용법1](http://www.tcpschool.com/json/json_use_js)
+10. [json 사용법2](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON)
+11. [json 사용법3](https://java119.tistory.com/54)
