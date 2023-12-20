@@ -15,6 +15,17 @@ sidebar:
 
 <br>
 
+# 개념 정리
+
+![0_Graph](..\..\images\2023-12-05-UnrealWebviewproject\0_Graph.png)
+
+1. 언리얼에 많은 클래스의 함수들을 JSManager의 **SetData()**에 등록한다. (예시로 SetResultII, SetResultIF, SetResultSS를 사용)
+2. 웹에서 언리얼 함수를 접근할 수 있게 WebBrowser에 JSManager를 **BindUObject()**한다.
+3. 웹에 SendMsgUnreal()로 WebBrowser에 바인딩된 JSManager의 **SearchData()**를 호출한다.
+4. WebBrowser의 ExcuteJavascript()로 웹에 접근해서 **UnrealCall(**)를 호출한다.
+
+<br>
+
 # Web Browser 플러그인 설치
 
 <br>
@@ -286,13 +297,6 @@ function UnrealCall(arg1, arg2)
 
 <br>
 
-![4._Image4_2](..\..\images\2023-12-05-UnrealWebviewproject\4._Image4_2.png)
-
-- 자바스크립트 lib.js에 UnrealCall 함수를 호출하는 GetCallJS 함수를 선언하고 구현한다.
-- 퓨어 항목에 체크한다.
-
-<br>
-
 ![4._Image4_2_1](..\..\images\2023-12-05-UnrealWebviewproject\4._Image4_2_1.png)
 
 - int형 변수 arg1과 arg2를 더한 값을 ResultText에 반영하는 SetResultII 함수를 구현한다.
@@ -517,6 +521,13 @@ void AJSManager::SearchData(FString data)
 - 다시 Construct 이벤트로 돌아간다
 - MyWebBrowser에 LoadURL함수와 BindUObject 함수를 호출한다.
 - BindUObject에 JSManager를 연결하고, Name에 obj를 넣는다.
+
+<br>
+
+![4._Image4_2](..\..\images\2023-12-05-UnrealWebviewproject\4._Image4_2.png)
+
+- 자바스크립트 lib.js에 UnrealCall 함수를 호출하는 GetCallJS 함수를 선언하고 구현한다.
+- 퓨어 항목에 체크한다.
 
 <br>
 
