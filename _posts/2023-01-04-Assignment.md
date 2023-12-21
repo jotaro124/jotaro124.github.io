@@ -3,6 +3,7 @@ layout: single
 title: "단간론파 슈팅 게임"
 categories: assignment
 toc: true
+toc_sticky : true
 sidebar:
     nav: "docs"
 ---

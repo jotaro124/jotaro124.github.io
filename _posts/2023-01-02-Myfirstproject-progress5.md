@@ -3,6 +3,7 @@ layout: single
 title: "BoardFighter 포트폴리오 수정5"
 categories: BoardFighter
 toc: true
+toc_sticky : true
 author_profile: true
 sidebar:
      nav: "docs"

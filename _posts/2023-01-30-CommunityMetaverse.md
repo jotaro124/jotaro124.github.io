@@ -3,6 +3,7 @@ layout: single
 title: "커뮤니티 메타버스 프로젝트"
 categories: work2lern
 toc: true
+toc_sticky : true
 sidebar:
      nav: "docs"
 ---

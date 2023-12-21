@@ -3,6 +3,7 @@ layout: single
 title: "언리얼 엔진 WebBrowser Plugin 다루는 법 정리"
 categories: UnrealStudy
 toc: true
+toc_sticky : true
 sidebar:
      nav: "docs"
 ---
@@ -21,8 +22,8 @@ sidebar:
 
 1. 언리얼에 많은 클래스의 함수들을 JSManager의 **SetData()**에 등록한다. (예시로 SetResultII, SetResultIF, SetResultSS를 사용)
 2. 웹에서 언리얼 함수를 접근할 수 있게 WebBrowser에 JSManager를 **BindUObject()**한다.
-3. 웹에 SendMsgUnreal()로 WebBrowser에 바인딩된 JSManager의 **SearchData()**를 호출한다.
-4. WebBrowser의 ExcuteJavascript()로 웹에 접근해서 **UnrealCall(**)를 호출한다.
+3. 웹에 **SendMsgUnreal()**로 WebBrowser에 바인딩된 JSManager의 **SearchData()**를 호출한다.
+4. WebBrowser의 **ExcuteJavascript()**로 웹에 접근해서 **UnrealCall(**)를 호출한다.
 
 <br>
 

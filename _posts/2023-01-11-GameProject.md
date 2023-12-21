@@ -3,6 +3,7 @@ layout: single
 title: "홀짝 게임 포트폴리오"
 categories: assignment
 toc: true
+toc_sticky : true
 author_profile: true
 sidebar:
      nav: "docs"

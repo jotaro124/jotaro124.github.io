@@ -3,6 +3,7 @@ layout: single
 title: "[C#] 중복을 제외하고 랜덤으로 숫자를 뽑는 기능 구현"
 categories: CSharp
 toc: true
+toc_sticky : true
 sidebar:
      nav: "docs"
 ---
