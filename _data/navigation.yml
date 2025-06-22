@@ -34,12 +34,15 @@ docs:
     children:
       - title: "BFS/DFS"
         url: /categories/BFSsDFS
-        categroy: "BFSsDFS"
+        category: "BFSsDFS"
   - title: Unreal
     children: 
       - title: "언리얼 공부"
         url: /categories/UnrealStudy
         category: "UnrealStudy"
+  
+
+
 
 
   # - title: "About"
