@@ -35,6 +35,11 @@ docs:
       - title: "BFS/DFS"
         url: /categories/BFSsDFS
         category: "BFSsDFS"
+      - title: " BackTracking"
+        url: /categories/BackTracking
+        category: "BackTracking"
+
+
   - title: Unreal
     children: 
       - title: "언리얼 공부"
