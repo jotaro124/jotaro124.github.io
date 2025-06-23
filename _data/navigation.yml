@@ -35,10 +35,12 @@ docs:
       - title: "BFS/DFS"
         url: /categories/BFSsDFS
         category: "BFSsDFS"
-      - title: " BackTracking"
+      - title: "BackTracking"
         url: /categories/BackTracking
         category: "BackTracking"
-
+      - title: "Simulation"
+        url: /categories/Simulation
+        category: "Simulation"
 
   - title: Unreal
     children: 
