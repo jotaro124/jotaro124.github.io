@@ -41,6 +41,10 @@ docs:
       - title: "Simulation"
         url: /categories/Simulation
         category: "Simulation"
+      - title: "Two-pointer"
+        url: /categories/TwoPointer
+        category: "TwoPointer"
+
 
   - title: Unreal
     children: 
