@@ -44,7 +44,9 @@ docs:
       - title: "Two-pointer"
         url: /categories/TwoPointer
         category: "TwoPointer"
-
+      - title: "BinarySearch"
+        url: /categories/BinarySearch
+        category: "BinarySearch"
 
   - title: Unreal
     children: 
