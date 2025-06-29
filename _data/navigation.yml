@@ -47,6 +47,9 @@ docs:
       - title: "BinarySearch"
         url: /categories/BinarySearch
         category: "BinarySearch"
+      - title: "Greedy"
+        url: /categories/Greedy
+        category: "Greedy"
 
   - title: Unreal
     children: 
