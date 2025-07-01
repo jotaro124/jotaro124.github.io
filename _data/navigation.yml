@@ -30,7 +30,7 @@ docs:
       - title: "C#"
         url: /categories/CSharp
         category: "CSharp"
-  - title: 백준
+  - title: 코딩 테스트
     children:
       - title: "BFS/DFS"
         url: /categories/BFSsDFS
