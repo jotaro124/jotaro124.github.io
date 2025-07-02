@@ -32,6 +32,9 @@ docs:
         category: "CSharp"
   - title: 코딩 테스트
     children:
+      - title: "알고리즘 공부"
+        url: /categories/AlgorithmStudy
+        category: "AlgorithmStudy"
       - title: "BFS/DFS"
         url: /categories/BFSsDFS
         category: "BFSsDFS"
