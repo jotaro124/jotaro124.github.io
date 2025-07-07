@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 빌드 방법"
+title: "알고리즘 공부"
 layout: archive
 permalink: /categories/AlgorithmStudy
 author_profile: true
