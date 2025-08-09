@@ -129,32 +129,32 @@ for (int i = 2; i < n + 1; i++) {
 - 하지만, **특정 범위에서 소수인 수들을 판별**하기 위해서는 에라토스테네스의 체를 사용하면 효율적으로 동작합니다.
 
 ## 예시
-- 1~50까지의 수를 나열
+- 1~50까지의 수를 나열합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample.png)
 
-- 소수도 합성수도 아닌 1를 제거
+- 소수도 합성수도 아닌 1를 제거합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample1.png)
 
 
-- 2를 제외한 2의 배수를 모두 제거한다.
+- 2를 제외한 2의 배수를 모두 제거합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample2.png)
 
-- 3을 제외한 3의 배수를 모두 제거한다.
+- 3을 제외한 3의 배수를 모두 제거합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample3.png)
 
-- 5를 제외한 5의 배수를 모두 제거한다.
+- 5를 제외한 5의 배수를 모두 제거합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample5.png)
 
-- 7를 제외한 7의 배수를 모두 제거한다.
+- 7를 제외한 7의 배수를 모두 제거합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample7.png)
 
-- 이렇게 끝까지 제거하면 소수만 판별할 수 있게 된다.
+- 이렇게 끝까지 제거하면 소수만 판별할 수 있게 합니다.
 
 ![sample](\images\2025-08-05-Study_check_primeNumber\sample8.png)
 
