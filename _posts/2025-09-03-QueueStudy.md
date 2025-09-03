@@ -25,41 +25,23 @@ queue<int> q;
 <br>
 
 # Queue 기본 함수
-- **void push(const value_type& val)**
+- **queue.push(element)**
     - 큐의 뒤에 원소를 추가하는 함수
-~~~c++
-queue.push(element)
-~~~
 
-- **void pop()**
+- **queue.pop()**
     - 큐의 앞에 원소를 삭제하는 함수
-~~~c++
-queue.pop()
-~~~
 
-- **value_type& front()**
+- **queue.front()**
     - 큐 제일 앞에 있는 원소를 반환하는 함수
-~~~c++
-queue.front()
-~~~
 
-- **value_type& back()**
+- **queue.back()**
     - 큐 제일 뒤에 있는 원소를 반환하는 함수
-~~~c++
-queue.back()
-~~~
 
-- **size_type size() const**
+- **queue.size()**
     - 큐의 사이즈를 반환하는 함수
-~~~c++
-queue.size()
-~~~
 
-- **bool empty() const**
+- **queue.empty()**
     - 큐가 비어있으면 true 아니면 false를 반환하는 함수
-~~~c++
-queue.empty()
-~~~
 
 <br>
 
