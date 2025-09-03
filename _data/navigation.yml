@@ -27,6 +27,9 @@ docs:
         category: "AndroidBuild"
   - title: C/C++/C#
     children:
+      - title: "C/C++"
+        url: /categories/C_CPP
+        category: C_CPP
       - title: "C#"
         url: /categories/CSharp
         category: "CSharp"
