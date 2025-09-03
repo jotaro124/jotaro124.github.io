@@ -25,23 +25,23 @@ queue<int> q;
 <br>
 
 # Queue 기본 함수
-- **queue.push(element)**
-    - 큐의 뒤에 원소를 추가하는 함수
+- **queue.push(i)**
+    - queue의 마지막 원소 뒤에 원소 i를 삽입합니다.
 
 - **queue.pop()**
-    - 큐의 앞에 원소를 삭제하는 함수
+    - queue의 앞에 원소를 삭제합니다.
 
 - **queue.front()**
-    - 큐 제일 앞에 있는 원소를 반환하는 함수
+    - queue 첫 번째 원소를 반환합니다.
 
 - **queue.back()**
-    - 큐 제일 뒤에 있는 원소를 반환하는 함수
+    - queue 마지막 원소를 반환합니다.
 
 - **queue.size()**
-    - 큐의 사이즈를 반환하는 함수
+    - queue의 원소 수를 반환합니다.
 
 - **queue.empty()**
-    - 큐가 비어있으면 true 아니면 false를 반환하는 함수
+    - queue가 비어있으면 true 아니면 false를 반환합니다.
 
 <br>
 
