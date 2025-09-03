@@ -15,7 +15,7 @@ sidebar:
 
 # Deque 사용법
 - deque 헤더 파일을 포함해야 합니다.
-- deque<[데이터 타입]> 이름; 으로 queue를 선언합니다.
+- deque<[데이터 타입]> 이름; 으로 deque를 선언합니다.
 - using namespace std를 추가하면 편리하게 사용할 수 있습니다.
 ~~~c++
 #include <deque> 
