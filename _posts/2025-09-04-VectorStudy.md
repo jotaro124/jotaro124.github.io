@@ -37,6 +37,9 @@ vector<int> v;
     - vector의 n번째 원소를 참조합니다.
     - v.at(n)보다 상대적으로 속도가 빠릅니다.
 
+- **v.assign(n,i)**
+    - i의 값을 n번 반복해서 할당합니다.
+
 - **v.front()**
     - vector의 첫 번째 원소를 참조합니다.
 
@@ -88,26 +91,103 @@ vector<int> v;
 
 # Vector 기본 사용 예시
 ~~~c++
+#include <iostream>
+#include <vector>
+using namespace std;
 
+int main() {
+    vector<int> v = { 1,2,3 };
+    cout << "v[1] : " << v[1] << "\n";  // v[1] : 2
+    cout << "v.back() : " << v.back() << "\n";  // v.back() : 3
+    v.push_back(10);
+    cout << "v.back() <added> : " << v.back() << "\n";  // v.back() <added> : 10
+
+    cout << "v.size() : " << v.size() << "\n";  // v.size() : 4
+    v.push_back(12);
+    v.push_back(14);
+    v.push_back(16);
+    v.push_back(18);
+    cout << "v.size() <added> : " << v.size() << "\n";  // v.size() <added> : 8
+
+    v.pop_back();
+    cout << "v.size() <pop-1> : " << v.size() << "\n";  // v.size() <pop-1> : 7
+    cout << "v.back() <pop-1> : " << v.back() << "\n";  // v.back() <pop-1> : 16
+    v.pop_back();
+    cout << "v.size() <pop-2> : " << v.size() << "\n";  // v.size() <pop-2> : 6
+    cout << "v.back() <pop-2> : " << v.back() << "\n";  // v.back() <pop-2> : 14
+    v.pop_back();
+    cout << "v.size() <pop-3> : " << v.size() << "\n";  // v.size() <pop-3> : 5
+    cout << "v.back() <pop-3> : " << v.back() << "\n";  // v.back() <pop-3> : 12
+}
 ~~~
 
 - 결과
 
 ~~~
-
+v[1] : 2
+v.back() : 3
+v.back() <added> : 10
+v.size() : 4
+v.size() <added> : 8
+v.size() <pop-1> : 7
+v.back() <pop-1> : 16
+v.size() <pop-2> : 6
+v.back() <pop-2> : 14
+v.size() <pop-3> : 5
+v.back() <pop-3> : 12
 ~~~
 
 <br>
 
-# Vector 중복 제거 
-~~~c++
+# Vector 중복 제거
+- 기본 형태
 
+~~~ c++
+sort(vec.begin(), vec.end());
+vec.erase(unique(vec.begin(),vec.end()), vec.end());
+~~~
+
+- 진행 과정
+
+~~~c++
+#include <iostream>
+#include <vector>
+#include <algorithm> 
+
+using namespace std; 
+
+void print_vec(vector<int> vec){    
+	for(int i=0; i<vec.size(); i++)    {        
+		cout<<vec[i]<<"  ";    
+	}     
+	cout<<endl;
+}
+
+int main(){    
+	vector<int> vec;    
+	int arr[] = {7,2,1,2,7,5};    
+	vec.assign(arr, arr+6); //벡터 원소 할당 
+	print_vec(vec);
+
+	sort(vec.begin(), vec.end()); //정렬     
+	print_vec(vec);
+
+	vector<int>::iterator uit= unique(vec.begin(), vec.end()); //중복원소 (쓰레기값으로 변환 후) 뒤로 보냄      
+	print_vec(vec);     
+	
+	vec.erase(uit, vec.end()); //삭제     
+	print_vec(vec);     
+	return 0;
+}
 ~~~
 
 - 결과
 
 ~~~
-
+7  2  1  2  7  5
+1  2  2  5  7  7
+1  2  5  7  7  7
+1  2  5  7
 ~~~
 
 <br>
