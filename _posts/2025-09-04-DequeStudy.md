@@ -29,7 +29,7 @@ deque<int> dq;
 - **deque.assign(n)**
     - 요소 n개를 0으로 초기화합니다.
 
-- **deque.assign(n,ㅑ)**
+- **deque.assign(n,i)**
     - 요소 n개를 i로 초기화합니다.
 
 - **deque.at(n)**
