@@ -110,7 +110,7 @@ int main()
 
 <br>
 
-참조
+# 참조
 - [[C++ STL]pair 클래스 사용방법](https://ya-ya.tistory.com/91)
 - [[C++] STL pair를 sort 함수로 내림차순 정렬하기](https://withhamit.tistory.com/195)
 - [[C++] sort 함수 내림차순, 내맘대로 정렬 (+DNA, 2017 아주대학교 프로그래밍 경시대회 (Large) 풀이)](https://kau-algorithm.tistory.com/72)
