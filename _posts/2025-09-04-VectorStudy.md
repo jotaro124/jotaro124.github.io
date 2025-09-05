@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Pair 기본 사용법 및 예제"
+title: "Vector 기본 사용법 및 예제"
 categories: C_CPP
 toc: true
 toc_sticky : true
