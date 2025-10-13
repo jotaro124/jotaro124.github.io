@@ -56,6 +56,9 @@ docs:
       - title: "Greedy"
         url: /categories/Greedy
         category: "Greedy"
+      - title: "DP"
+        url: /categories/DP
+        category: "DP"
 
   - title: Unreal
     children: 
