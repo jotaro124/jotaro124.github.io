@@ -106,7 +106,7 @@ bool bellman_ford(int start) {
 using namespace std;
 
 vector<array<int, 3>> graph; // 간선 리스트로 그래프 표현
-int dist[4]; // 최단 거리 배열
+long long dist[4]; // 최단 거리 배열
 int INF = 1e9; // 최단 거리 배열 초기값
 int num = 3; // 주어진 노드의 수
 
