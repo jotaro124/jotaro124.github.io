@@ -13,51 +13,179 @@ sidebar:
 c/c++에서는 이를 방지하기 위해 **memset과 fill** 두 가지의 배열 초기화 함수를 제공합니다.
 
 # memset() 함수
-- "cstring" 또는 "string.h" 헤더 사용합니다.
+- **"cstring" 또는 "string.h" 헤더** 사용합니다.
 - 배열 원소를 초기화하는 것이 아니라 메모리 값을 초기화하기 때문에 **0과 -1만 사용가능합니다.** 그 외의 수는 원하는 값으로 초기화 되지 않습니다.
 
 ~~~c++
 void memset(void *ptr, int value, size_t num)
 ~~~
-- void *ptr: 배열이나 어떤 container의 자료형의 시작 포인터
-- int value: 배열이나 어떤 container에 채울 자료 (이 값은 unsigned char로 변환되어 삽입)
-- size_t num: 배열이나 어떤 container에 int value 값을 얼마나 넣을지 결정
+- **void *ptr**: 배열이나 어떤 container의 자료형의 시작 포인터
+- **int value**: 배열이나 어떤 container에 채울 자료 (이 값은 unsigned char로 변환되어 삽입)
+- **size_t num**: 배열이나 어떤 container에 int value 값을 얼마나 넣을지 결정
 
-- 예시
+## 1차원 배열
+
 ~~~c++
-int nums[5];
-memset(nums, 0, sizeof(nums));
-for (int num : nums)
-    cout << num << " ";
+// (초기화 해줄 배열의 주소, 초기화 할 값, 배열의 크기)
+memset(arr, 0, sizeof(arr));
+~~~
+
+<br>
+
+- 예시 코드
+
+~~~c++
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	int arr[5] = { 1,2,3,4,5 };
+
+	memset(arr, 0, sizeof(arr));
+
+	for (int num : arr)
+		cout << num << " ";
+
+	return 0;
+}
 ~~~
 - 출력 결과
+
 ~~~
 0 0 0 0 0
+~~~
+
+## 2차원 배열
+
+~~~c++
+// (초기화 해줄 배열의 주소, 초기화 할 값, 배열의 크기)
+memset(arr, 0, sizeof(arr));
+~~~
+
+<br>
+
+- 예시 코드
+
+~~~c++
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	int arr[3][3] = { {1,2,3}, {4,5,6}, {7,8,9} };
+
+	memset(arr, 0, sizeof(arr));
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << arr[i][j] << " ";
+		}
+		cout << "\n";
+	}
+
+	return 0;
+}
+~~~
+- 출력 결과
+
+~~~
+0 0 0
+0 0 0
+0 0 0
 ~~~
 
 <br>
 
 # fill() 함수
-- "algorithm" 헤더를 사용합니다.
-- memset과 다르게 value 자료형에서의 오버플로우가 아니라면 원하는 값을 채울 수 있습니다.
+- **"algorithm" 헤더**를 사용합니다.
+- memset과 다르게 **value 자료형에서의 오버플로우가 아니라면 원하는 값을 채울 수 있습니다.**
 
 ~~~c++
 void fill(ForwardIt first, ForwardIt last, const T& value)
 ~~~
-- ForwardIt first: 배열이나 어떤 container 시작 Iterator, 배열의 경우 첫 포인터
-- ForwardIt last: 배열이나 어떤 container 끝 Iterator, 배열의 경우 마지막 포인터
-- const T& value: 배열이나 어떤 container 자료형에 넣을 값
+- **ForwardIt first**: 배열이나 어떤 container 시작 Iterator, 배열의 경우 첫 포인터
+- **ForwardIt last**: 배열이나 어떤 container 끝 Iterator, 배열의 경우 마지막 포인터
+- **const T& value**: 배열이나 어떤 container 자료형에 넣을 값
 
-- 예시
+## 1차원 배열
+
 ~~~c++
-int nums[5];
-fill(nums, nums + 5, 0);
-for (int num : nums)
-    cout << num << " ";
+// (시작할 배열의 주소, 끝나는 주소, 초기화 할 값)
+fill(arr, arr+5, 0);
+~~~
+
+<br>
+
+- 예시 코드
+
+~~~c++
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+
+	int arr[5] = { 1,2,3,4,5 };
+
+	fill(arr, arr + 5, 0);
+
+	for (int num : arr)
+		cout << num << " ";
+
+	return 0;
+}
 ~~~
 - 출력 결과
+
 ~~~
 0 0 0 0 0
+~~~
+
+## 2차원 배열
+
+~~~c++
+// (시작할 배열의 주소, 끝나는 주소, 초기화 할 값)
+fill(&arr[0][0], &arr[0][0] + 3 * 3, 0);
+~~~
+
+<br>
+
+- 예시 코드
+
+~~~c++
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+
+	int arr[3][3] = { {1,2,3}, {4,5,6}, {7,8,9} };
+
+	fill(&arr[0][0], &arr[0][0] + 3 * 3, 0);
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << arr[i][j] << " ";
+		}
+		cout << "\n";
+	}
+
+	return 0;
+}
+~~~
+- 출력 결과
+
+~~~
+0 0 0
+0 0 0
+0 0 0
 ~~~
 
 <br>
