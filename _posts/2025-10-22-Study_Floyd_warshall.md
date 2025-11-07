@@ -10,6 +10,7 @@ sidebar:
 
 # 플로이드-워셜 알고리즘
 - 플로이드-워셜 알고리즘은 **모든 노드에서 다른 모든 노드까지 최단 경로**를 구하는 알고리즘입니다.
+	- 시간복잡도는 **O(N^3)**입니다.
 - 이 글은 **플로이드-워셜 알고리즘의 동작 과정과 코드 구현 방법**에 대해서 정리한 내용입니다.
 
 
@@ -57,86 +58,92 @@ sidebar:
 ## 최단 거리 배열 초기화
 ~~~c++
 // 최단 거리 배열 초기화
-for (int i = 1; i <= 4; i++) {
-	for (int j = 1; j <= 4; j++) {
+for (int i = 1; i <= N; i++) {
+	for (int j = 1; j <= N; j++) {
 		if (i == j) dist[i][j] = 0;
-		else if (graph[i][j]) dist[i][j] = graph[i][j];
 		else dist[i][j] = INF;
 	}
 }
 ~~~
 - 최단 거리 배열 초기화합니다.
     - 자기 자신에서 자신 자신까지는 0으로 저장합니다.
-    - 인접 행렬에 저장된 내용을 저장합니다.
     - 나머지는 무한으로 표시합니다.
+
+## 간선 정보 입력
+~~~c++
+// 간선 정보 입력
+for (int i = 0; i < M; i++) {
+	// 출발 도시, 도착 도시, 비용 입력
+	int a, b, c;
+	cin >> a >> b >> c;
+
+	// 그래프 정보 입력
+	dist[a][b] = min(dist[a][b], c);
+
+}
+~~~
+- 그래프 정보 입력할 때 **min함수**를 사용한 이유는 **비용이 다른 경우**도 있기 때문입니다.
+
 
 ## 플로이드-워셜 알고리즘 구현
 ~~~c++
 // 플로이드-워셜 알고리즘 수행
-for (int k = 1; k <= 4; k++) {
-	for (int s = 1; s <= 4; s++) {
-		for (int e = 1; e <= 4; e++) {
+// 어느 노드 k를 거쳐간 거리와 그냥 간 거리를 비교하는 방식
+for (int k = 1; k <= N; k++)
+	for (int s = 1; s <= N; s++)
+		for (int e = 1; e <= N; e++)
 			dist[s][e] = min(dist[s][e], dist[s][k] + dist[k][e]);
-		}
-	}
-}
 ~~~
 - 점화식 **D[s][e] = Min(D[s][e], D[s][k]+D[k][e])**를 수행
 
 
 ## 전체 코드
 ~~~c++
-
 #include <iostream>
 #include <algorithm>
 
 using namespace std;
 
-int graph[5][5]; // 인접 행렬로 그래프 표현
-int INF = 1e9; // 최단 거리 초기화 값
-int dist[5][5]; // 최단 거리 배열
-
-// 인접 행렬 초기화하는 함수
-void setGraph() {
-	graph[1][2] = 3;
-	graph[1][3] = 6;
-	graph[1][4] = 7;
-	graph[2][1] = 3;
-	graph[2][3] = 1;
-	graph[3][1] = 6;
-	graph[3][2] = 1;
-	graph[3][4] = 1;
-	graph[4][1] = 7;
-	graph[4][3] = 1;
-}
+int N; // 노드의 개수
+int M; // 간선의 개수
+int dist[101][101]; // 최단 거리 배열
+int INF = 1e9; // 최단 거리 초기화 값, 무한을 의미
 
 int main() {
 
-	// 인접 행렬 초기화
-	setGraph();
+	// 노드의 개수 입력, 간선의 개수 입력
+	cin >> N >> M;
 
 	// 최단 거리 배열 초기화
-	for (int i = 1; i <= 4; i++) {
-		for (int j = 1; j <= 4; j++) {
+	for (int i = 1; i <= N; i++) {
+		for (int j = 1; j <= N; j++) {
 			if (i == j) dist[i][j] = 0;
-			else if (graph[i][j]) dist[i][j] = graph[i][j];
 			else dist[i][j] = INF;
 		}
 	}
-	
-	// 플로이드-워셜 알고리즘 수행
-	for (int k = 1; k <= 4; k++) {
-		for (int s = 1; s <= 4; s++) {
-			for (int e = 1; e <= 4; e++) {
-				dist[s][e] = min(dist[s][e], dist[s][k] + dist[k][e]);
-			}
-		}
+
+	// 간선 정보 입력
+	for (int i = 0; i < M; i++) {
+		// 출발 도시, 도착 도시, 비용 입력
+		int a, b, c;
+		cin >> a >> b >> c;
+
+		// 그래프 정보 입력
+		dist[a][b] = min(dist[a][b], c);
+
 	}
 
+	// 플로이드-워셜 알고리즘 수행
+	// 어느 노드 k를 거쳐간 거리와 그냥 간 거리를 비교하는 방식
+	for (int k = 1; k <= N; k++)
+		for (int s = 1; s <= N; s++)
+			for (int e = 1; e <= N; e++)
+				dist[s][e] = min(dist[s][e], dist[s][k] + dist[k][e]);
+	
 	cout << "모든 노드에 모든 노드까지의 최단 경로\n";
 	for (int i = 1; i <= 4; i++) {
 		for (int j = 1; j <= 4; j++) {
-            if (dist[i][j] == (int)1e9)
+			if (dist[i][j] == INF)
 				cout << "INF" << " ";
 			else
 				cout << dist[i][j] << " ";
@@ -147,6 +154,23 @@ int main() {
 	return 0;
 }
 ~~~
+
+- 입력
+
+~~~
+4 10
+1 2 3
+1 3 6
+1 4 7
+2 1 3
+2 3 1
+3 1 6
+3 2 1
+3 4 1
+4 1 7
+4 3 1
+~~~
+
 - 출력
 
 ~~~
