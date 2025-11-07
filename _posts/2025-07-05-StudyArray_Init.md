@@ -29,10 +29,9 @@ void memset(void *ptr, int value, size_t num)
 // (초기화 해줄 배열의 주소, 초기화 할 값, 배열의 크기)
 memset(arr, 0, sizeof(arr));
 ~~~
+- 1차원 배열을 초기화하는 방법은 **배열의 이름**을 매개변수로 넣으면 됩니다.
 
-<br>
-
-- 예시 코드
+### 예시 코드
 
 ~~~c++
 #include <iostream>
@@ -65,9 +64,9 @@ int main() {
 memset(arr, 0, sizeof(arr));
 ~~~
 
-<br>
+- 2차원 배열을 초기화하는 방법은 **배열의 이름**을 매개변수로 넣으면 됩니다.
 
-- 예시 코드
+### 예시 코드
 
 ~~~c++
 #include <iostream>
@@ -118,10 +117,9 @@ void fill(ForwardIt first, ForwardIt last, const T& value)
 // (시작할 배열의 주소, 끝나는 주소, 초기화 할 값)
 fill(arr, arr+5, 0);
 ~~~
+- 1차원 배열을 초기화하는 방법은 **배열의 이름**을 매개변수로 넣으면 됩니다.
 
-<br>
-
-- 예시 코드
+### 예시 코드
 
 ~~~c++
 #include <iostream>
@@ -154,9 +152,9 @@ int main() {
 fill(&arr[0][0], &arr[0][0] + 3 * 3, 0);
 ~~~
 
-<br>
+- 2차원 배열을 초기화하는 방법은 **&arr[0][0]**을 매개변수로 넣으면 됩니다.
 
-- 예시 코드
+### 예시 코드
 
 ~~~c++
 #include <iostream>
