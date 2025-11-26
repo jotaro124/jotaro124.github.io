@@ -8,6 +8,14 @@ sidebar:
      nav: "docs"
 ---
 
+<style>
+ table{ border-collapse : collapse; }
+ th,td{
+      border: 1px solid #000;
+
+    }
+</style>
+
 코딩 테스트하면서 `틀렸습니다`와 `시간 초과`라는 메시지를 받는 경우가 많았습니다.
 여러가지 이유가 존재하지만 데이터가 표현할 수 있는 범위를 벗어나서 오답 처리되는 경우가 있었습니다.
 - 예를들어 [나무 자르기](https://www.acmicpc.net/problem/2805) 문제에서 int형으로 코드를 구현했는데 int형의 범위를 넘어서는 데이터였기 때문에 `틀렸습니다` 메시지를 받았습니다. 
