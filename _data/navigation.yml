@@ -33,6 +33,17 @@ docs:
       - title: "C#"
         url: /categories/CSharp
         category: "CSharp"
+  - title: A형 도전
+    children:
+      - title: "모의 A형 테스트"
+        url: /categories/MockATest
+        category: MockATest
+      - title: "모의 A형 기출"
+        url: /categories/MockAPast
+        category: MockAPast
+      - title: "모의 A형 공부"
+        url: /categories/MockAStudy
+        categroy: MockAStudy
   - title: 코딩 테스트
     children:
       - title: "알고리즘 공부"
