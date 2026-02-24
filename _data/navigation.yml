@@ -43,7 +43,7 @@ docs:
         category: MockAPast
       - title: "모의 A형 공부"
         url: /categories/MockAStudy
-        categroy: MockAStudy
+        category: MockAStudy
   - title: 코딩 테스트
     children:
       - title: "알고리즘 공부"
