@@ -1,11 +1,11 @@
 ---
-title: "모의 A형 기출"
+title: "모의 A형 공부"
 layout: archive
-permalink: /categories/MockAPast
+permalink: /categories/MockAStudy
 author_profile: true
 sidebar:
     nav: "docs"
 ---
 
-{% assign posts = site.categories.MockAPast %}
+{% assign posts = site.categories.MockAStudy %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
